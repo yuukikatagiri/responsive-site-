@@ -13,8 +13,8 @@ html
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-position: center center;
-  margin-bottom: 30px
+  background-position: center;
+  margin-bottom: 20px
 }
 @media (max-width: 768px) {
   .box {
@@ -31,7 +31,6 @@ body
     letter-spacing: .1em;
     color: #FF5F7B;
     background-color: #dcdcdc;
-    margin-top:30px;
 }
 p
 {
@@ -46,16 +45,15 @@ p.title{
 div.common {
   border: 1px solid #000000;
   background-color: white;
-  padding: 20px;
-  width: 300px;
+  width: 31%;
   float: left;
-  margin:30px;
+  margin: 1%;
 }
 
 @media (max-width: 768px) {
   div.common {
     flex-direction: column;
-    margin: 10px 0px;
+    margin: 10px 15px;
     width: 90%
   }
 }
